@@ -1,0 +1,28 @@
+{
+  "name": "sequelizeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node server.ts"
+  },
+  "devDependencies": {
+    "ts-node": "10.7.0",
+    "@types/node": "^16.11.10",
+    "typescript": "4.5.2"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-ws": "^4.0.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "sequelize": "^6.19.0",
+    "sequelize-cli": "^6.4.1",
+    "tedious": "^11.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
